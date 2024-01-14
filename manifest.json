@@ -1,0 +1,8 @@
+{
+    "domain": "triad-audio-matrix",
+    "name": "Triad Audio Matrix",
+    "documentation": "https://github.com",
+    "requirements": [],
+    "codeowners": [],
+    "version": "1.0.0"
+}
