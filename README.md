@@ -14,7 +14,7 @@ media_player:
     port: 52000
     channel: 1
     source_list:
-      - name: "Dad's Spotify" # name to show in the media player source lit
+      - name: "Dad's Spotify" # name to show in the media player source list
         input: 1 # matrix input channel
         spotify_id: "media_player.spotify_dad" # optional, only if the source is a spotify media player
       - name: "Mom's Spotify"
