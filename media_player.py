@@ -183,7 +183,7 @@ class TriadAudioMatrixMediaPlayer(MediaPlayerEntity):
             entity = self.hass.states.get(self._source["spotify_id"])
             
             state = entity.attributes['state']
-            if entity.state == MediaPlayerState.STATE_PLAYING:
+            if entity.state == MediaPlayerState.PLAYING:
                 await self.hass.services.async_call('media_player', 'media_pause', action_data)
 
         self._source = None
